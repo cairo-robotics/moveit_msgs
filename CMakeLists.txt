@@ -76,6 +76,7 @@ GetRobotStateFromWarehouse.srv
 CheckIfRobotStateExistsInWarehouse.srv
 RenameRobotStateInWarehouse.srv
 DeleteRobotStateFromWarehouse.srv
+CustomCost.srv
 )
 
 set(ACT_FILES
