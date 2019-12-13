@@ -1,3 +1,7 @@
+# The state given in configuration space
 float64[] state
 ---
+# The cost calculated by the server
 float64 cost
+# Which cost to use (0=cost, 1=infinite positive, 2=infinite negative, 3=clearance)
+uint8 type
